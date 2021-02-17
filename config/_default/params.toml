@@ -1,32 +1,32 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "Debugging Your Brain"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+titleAddition = "Clear, Concise Self-help"
+description = "Your brain is a complex system. Patch the software that runs in your mind."
 
 ## Open Graph + Twitter Cards
-images = ["doks.png"]
-twitterSite = "henkverlinde"
-twitterCreator = "henkverlinde"
-facebookAuthor = "verlinde.henk"
-facebookPublisher = "verlinde.henk"
+images = ["brainimage.png"]
+twitterSite = "heycaseywattsup"
+twitterCreator = "heycaseywattsup"
+facebookAuthor = "debuggingyourbrain"
+facebookPublisher = "debuggingyourbrain"
 ogLocale = "en_US"
 
 ## JSON-LD
 schemaType = "Organization"
-schemaLogo = "logo-doks.png"
-schemaTwitter = "https://twitter.com/henkverlinde"
-schemaLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaGitHub = "https://github.com/h-enk"
+schemaLogo = "brainimage.png"
+schemaTwitter = "https://twitter.com/heycaseywattsup"
+schemaLinkedIn = "https://www.linkedin.com/in/caseywatts/"
+schemaGitHub = "https://github.com/caseywatts"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
 siteLinksSearchBox = false
 
 ## Chrome Browser
-themeColor = "#fff"
+themeColor = "#5F4A9E"
 
 # Images
 quality = 85
@@ -36,12 +36,12 @@ portraitPhotoWidths = [800, 700, 600, 500]
 lqipWidth = "20x"
 
 # Footer
-footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
+footer = "Powered by <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
 
 # Alert
 alert = false
 alertText = "Like Doks? <a class=\"alert-link\" href=\"https://github.com/h-enk/doks/stargazers\">Star on GitHub</a>. Thanks!</a>"
 
 # Edit Page
-docsRepo = "https://github.com/h-enk/doks"
+docsRepo = "https://github.com/caseywatts/dyb-doks"
 editPage = false
