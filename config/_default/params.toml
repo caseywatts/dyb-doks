@@ -3,8 +3,8 @@
 ## Homepage
 title = "Debugging Your Brain"
 titleSeparator = "-"
-titleAddition = "Clear, concise applied psychology and self-help"
-description = "Psychology and software development: this book brings together these two parts of Casey's background. Casey studied neurobiology at Yale University, and he is a co-author on several neurobiology papers. He has also worked in software development for 10 years, including at Heroku. Casey is an independent author based in Washington, DC."
+titleAddition = "Clear, concise applied psychology and self-help."
+description = "Psychology and software development: these two parts of Casey's background come together to make a clear, concise applied psychology and self-help book."
 
 ## Open Graph + Twitter Cards
 images = ["images/Facebook Ad, square.png"]
