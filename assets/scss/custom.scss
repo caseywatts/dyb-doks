@@ -315,3 +315,11 @@
         .navbar {
             box-shadow: 0px 1px 10px var(--brain-background-black);
         }
+
+        .navbar {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+        .navbar .menu-btn:checked ~ .navbar-collapse {
+            padding-top: 1rem;
+        }
