@@ -4,10 +4,10 @@
 title = "Debugging Your Brain"
 titleSeparator = "-"
 titleAddition = "Clear, concise applied psychology and self-help"
-description = "This book brings together two parts of Casey's background: psychology and software development. Casey studied neurobiology at Yale University, and he is a co-author on several neurobiology papers. He has also worked in software development for 10 years, including at Heroku. Casey is an independent author based in Washington, DC."
+description = "Psychology and software development: this book brings together these two parts of Casey's background. Casey studied neurobiology at Yale University, and he is a co-author on several neurobiology papers. He has also worked in software development for 10 years, including at Heroku. Casey is an independent author based in Washington, DC."
 
 ## Open Graph + Twitter Cards
-images = ["images/DYBCoverRGB-200x320.jpg"]
+images = ["images/Facebook Ad, square.png"]
 twitterSite = "heycaseywattsup"
 twitterCreator = "heycaseywattsup"
 facebookAuthor = "debuggingyourbrain"
@@ -16,7 +16,7 @@ ogLocale = "en_US"
 
 ## JSON-LD
 schemaType = "Organization"
-schemaLogo = "images/brainimage.png"
+schemaLogo = "brainimage.png" # in root not in images idk why I put it there lol
 schemaTwitter = "https://twitter.com/heycaseywattsup"
 schemaLinkedIn = "https://www.linkedin.com/in/caseywatts/"
 schemaGitHub = "https://github.com/caseywatts"
