@@ -305,3 +305,13 @@
             height: 10rem;
             margin: -8rem 0 0;
         }
+
+        // header and footer
+        .navbar, footer {
+            background-color: var(--card-background);
+            color: white;
+        }
+
+        .navbar {
+            box-shadow: 0px 1px 10px var(--brain-background-black);
+        }
