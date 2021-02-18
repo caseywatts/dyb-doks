@@ -1,19 +1,5 @@
         /* general */
 
-        :root {
-            --brain-orange: #d26f53;
-            --brain-pink: #ef75ab;
-            --brain-blue: #648cc9;
-            --brain-purple: #5f4a9e;
-            --brain-background-black: #2d395d;
-            --brain-background-blue: ##020106;
-            --middle-color: var(--brain-blue);
-            --edge-color: var(--brain-purple);
-            --card-background: #f2f3ff;
-            --button-background: purple;
-            --pale-blue: hsl(216 48% 95% / 1);
-        }
-
         @font-face {
             font-family: 'Mockup';
             src: url("/assets/Mockup-Regular.otf") format("opentype");
@@ -26,9 +12,9 @@
 
         body {
             font-family: 'Open Sans', sans-serif;
-            background: var(--brain-blue);
-            background: linear-gradient(-30deg,
-                    var(--edge-color) 0%, var(--middle-color) 50%, var(--edge-color) 100%);
+            // background: var(--brain-blue);
+            // background: linear-gradient(-30deg,
+            //         var(--edge-color) 0%, var(--middle-color) 50%, var(--edge-color) 100%);
             margin: 0;
             padding: 0;
             color:
@@ -145,7 +131,7 @@
             padding: 1rem;
         }
 
-        .section {
+        .section, article {
             display: block;
             /* vertical-align: top; */
             margin: 1.5rem;
