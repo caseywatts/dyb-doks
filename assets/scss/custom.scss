@@ -33,7 +33,7 @@
         h5,
         h6 {
             font-family: 'Ostrich Sans', 'Hind', sans-serif;
-            letter-spacing: 0.1rem;
+            letter-spacing: 0.1em;
         }
 
         h2 {
@@ -130,21 +130,21 @@
             padding: 1rem;
         }
 
-        // .section, article {
-        //     display: block;
-        //     /* vertical-align: top; */
-        //     margin: 1.5rem;
-        //     margin-left: auto;
-        //     margin-right: auto;
-        //     padding: 2rem;
-        //     background-color: var(--card-background);
-        //     /* background:
-        // rgba(135,142,217,0.9) */
-        //     border-radius: 1rem;
-        //     /* min-width: 25rem; */
-        //     max-width: 50rem;
-        //     box-shadow: 3px 3px 10px var(--brain-background-black);
-        // }
+        .my-card {
+            display: block;
+            /* vertical-align: top; */
+            margin: 1.5rem;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 2rem;
+            background-color: var(--card-background);
+            /* background:
+        rgba(135,142,217,0.9) */
+            border-radius: 1rem;
+            /* min-width: 25rem; */
+            max-width: 50rem;
+            box-shadow: 3px 3px 10px var(--brain-background-black);
+        }
 
         .text-justify {
             text-align: justify;
@@ -195,7 +195,7 @@
 
         a.button-link {
             display: inline-block;
-            width: 8rem;
+            min-width: 8rem;
             padding: 10px;
             margin: 10px;
             color: white;
@@ -228,7 +228,7 @@
         }
 
         p {
-            font-size: 1em;
+            font-size: 0.9em;
         }
 
         .book-floating-box {
@@ -306,7 +306,7 @@
         }
 
         // header and footer
-        .navbar, footer {
+        .navbar, body>footer {
             background-color: var(--card-background);
             color: white;
         }
@@ -321,4 +321,10 @@
         }
         .navbar .menu-btn:checked ~ .navbar-collapse {
             padding-top: 1rem;
+        }
+
+
+        td, th {
+            display: flex;
+            flex-wrap: wrap;
         }
