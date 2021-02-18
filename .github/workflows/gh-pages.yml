@@ -15,8 +15,6 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - uses: bahmutov/npm-install@v1
-        env:
-          NODE_ENV: production
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
