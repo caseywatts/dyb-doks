@@ -72,22 +72,22 @@ rel  = "sitemap"
 [module]
   [[module.mounts]]
     source = "assets"
-    target = "assets"
+    target = "dyb-doks/assets"
   [[module.mounts]]
     source = "static"
-    target = "static"
+    target = "dyb-doks/static"
   [[module.mounts]]
     source = "node_modules/lazysizes"
-    target = "assets/js/vendor/lazysizes"
+    target = "dyb-doks/assets/js/vendor/lazysizes"
   [[module.mounts]]
     source = "node_modules/instant.page"
-    target = "assets/js/vendor/instant.page"
+    target = "dyb-doks/assets/js/vendor/instant.page"
   [[module.mounts]]
     source = "node_modules/lazysizes"
-    target = "assets/js/vendor/lazysizes"
+    target = "dyb-doks/assets/js/vendor/lazysizes"
   [[module.mounts]]
     source = "node_modules/flexsearch"
-    target = "assets/js/vendor/flexsearch"
+    target = "dyb-doks/assets/js/vendor/flexsearch"
   [[module.mounts]]
     source = "node_modules/clipboard"
-    target = "assets/js/vendor/clipboard"
+    target = "dyb-doks/assets/js/vendor/clipboard"
