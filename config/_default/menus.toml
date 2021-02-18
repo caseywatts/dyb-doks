@@ -1,39 +1,39 @@
-[[docs]]
-  name = "Prologue"
-  weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
+# [[docs]]
+#   name = "Prologue"
+#   weight = 10
+#   identifier = "prologue"
+#   url = "/docs/prologue/"
 
-[[docs]]
-  name = "Help"
-  weight = 60
-  identifier = "help"
-  url = "/docs/help/"
+# [[docs]]
+#   name = "Help"
+#   weight = 60
+#   identifier = "help"
+#   url = "/docs/help/"
 
-[[main]]
-  name = "Book"
-  url = "/book/"
-  weight = 10
+# [[main]]
+#   name = "Book"
+#   url = "/book/"
+#   weight = 10
 
-[[main]]
-  name = "Talks"
-  url = "/talks"
-  weight = 20
+# [[main]]
+#   name = "Talks"
+#   url = "/talks"
+#   weight = 20
 
-[[main]]
-  name = "Techniques"
-  url = "/techniques"
-  weight = 30
+# [[main]]
+#   name = "Techniques"
+#   url = "/techniques"
+#   weight = 30
 
-[[main]]
-  name = "Updates"
-  url = "/updates"
-  weight = 40
+# [[main]]
+#   name = "Updates"
+#   url = "/updates"
+#   weight = 40
 
-[[main]]
-  name = "Contact"
-  url = "/contact"
-  weight = 50
+# [[main]]
+#   name = "Contact"
+#   url = "/contact"
+#   weight = 50
 
 [[social]]
   name = "Twitter"
@@ -42,9 +42,9 @@
   weight = 10
 
 [[social]]
-  name = "GitHub"
-  pre = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-github\"><path d=\"M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22\"></path></svg>"
-  url = "https://github.com/caseywatts"
+  name = "LinkedIn"
+  pre = '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" fill="currentColor" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve"> <g> <path d="M80.667,14H19.315C16.381,14,14,16.325,14,19.188v61.617C14,83.672,16.381,86,19.315,86h61.352	C83.603,86,86,83.672,86,80.805V19.188C86,16.325,83.603,14,80.667,14z M35.354,75.354H24.67V40.995h10.684V75.354z M30.012,36.297 c-3.423,0-6.19-2.774-6.19-6.194c0-3.415,2.767-6.189,6.19-6.189c3.415,0,6.189,2.774,6.189,6.189 C36.201,33.523,33.427,36.297,30.012,36.297z M75.35,75.354H64.683V58.646c0-3.986-0.078-9.111-5.551-9.111 c-5.558,0-6.405,4.341-6.405,8.822v16.998H42.052V40.995h10.245v4.692h0.146c1.426-2.7,4.91-5.549,10.106-5.549 c10.806,0,12.802,7.114,12.802,16.369V75.354z"/> </g> </svg>'
+  url = "https://www.linkedin.com/in/caseywatts"
   post = "v0.1.0"
   weight = 20
 
