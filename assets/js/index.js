@@ -1,146 +1,146 @@
-var suggestions = document.getElementById('suggestions');
-var userinput = document.getElementById('userinput');
+// var suggestions = document.getElementById('suggestions');
+// var userinput = document.getElementById('userinput');
 
-document.addEventListener('keydown', inputFocus);
+// document.addEventListener('keydown', inputFocus);
 
-function inputFocus(e) {
+// function inputFocus(e) {
 
-  if (e.keyCode === 191 ) {
-    e.preventDefault();
-    userinput.focus();
-  }
+//   if (e.keyCode === 191 ) {
+//     e.preventDefault();
+//     userinput.focus();
+//   }
 
-  if (e.keyCode === 27 ) {
-    userinput.blur();
-    suggestions.classList.add('d-none');
-  }
+//   if (e.keyCode === 27 ) {
+//     userinput.blur();
+//     suggestions.classList.add('d-none');
+//   }
 
-}
+// }
 
-document.addEventListener('click', function(event) {
+// document.addEventListener('click', function(event) {
 
-  var isClickInsideElement = suggestions.contains(event.target);
+//   var isClickInsideElement = suggestions.contains(event.target);
 
-  if (!isClickInsideElement) {
-    suggestions.classList.add('d-none');
-  }
+//   if (!isClickInsideElement) {
+//     suggestions.classList.add('d-none');
+//   }
 
-});
+// });
 
-/*
-Source:
-  - https://dev.to/shubhamprakash/trap-focus-using-javascript-6a3
-*/
+// /*
+// Source:
+//   - https://dev.to/shubhamprakash/trap-focus-using-javascript-6a3
+// */
 
-document.addEventListener('keydown',suggestionFocus);
+// document.addEventListener('keydown',suggestionFocus);
 
-function suggestionFocus(e){
+// function suggestionFocus(e){
 
-  const focusableSuggestions= suggestions.querySelectorAll('a');
-  const focusable= [...focusableSuggestions];
-  const index = focusable.indexOf(document.activeElement);
+//   const focusableSuggestions= suggestions.querySelectorAll('a');
+//   const focusable= [...focusableSuggestions];
+//   const index = focusable.indexOf(document.activeElement);
 
-  let nextIndex = 0;
+//   let nextIndex = 0;
 
-  if (e.keyCode === 38) {
-    e.preventDefault();
-    nextIndex= index > 0 ? index-1 : 0;
-    focusableSuggestions[nextIndex].focus();
-  }
-  else if (e.keyCode === 40) {
-    e.preventDefault();
-    nextIndex= index+1 < focusable.length ? index+1 : index;
-    focusableSuggestions[nextIndex].focus();
-  }
+//   if (e.keyCode === 38) {
+//     e.preventDefault();
+//     nextIndex= index > 0 ? index-1 : 0;
+//     focusableSuggestions[nextIndex].focus();
+//   }
+//   else if (e.keyCode === 40) {
+//     e.preventDefault();
+//     nextIndex= index+1 < focusable.length ? index+1 : index;
+//     focusableSuggestions[nextIndex].focus();
+//   }
 
-}
+// }
 
 
-/*
-Source:
-  - https://github.com/nextapps-de/flexsearch#index-documents-field-search
-  - https://raw.githack.com/nextapps-de/flexsearch/master/demo/autocomplete.html
-*/
+// /*
+// Source:
+//   - https://github.com/nextapps-de/flexsearch#index-documents-field-search
+//   - https://raw.githack.com/nextapps-de/flexsearch/master/demo/autocomplete.html
+// */
 
-(function(){
+// (function(){
 
-  var index = new FlexSearch({
-    preset: 'score',
-    cache: true,
-    doc: {
-        id: 'id',
-        field: [
-          'title',
-          'description',
-          'content',
-        ],
-        store: [
-          'href',
-          'title',
-          'description',
-        ],
-    },
-  });
+//   var index = new FlexSearch({
+//     preset: 'score',
+//     cache: true,
+//     doc: {
+//         id: 'id',
+//         field: [
+//           'title',
+//           'description',
+//           'content',
+//         ],
+//         store: [
+//           'href',
+//           'title',
+//           'description',
+//         ],
+//     },
+//   });
 
-  var docs = [
-    {{ range $index, $page := (where .Site.Pages "Section" "docs") -}}
-      {
-        id: {{ $index }},
-        href: "{{ .Permalink | absURL }}",
-        title: {{ .Title | jsonify }},
-        description: {{ .Params.description | jsonify }},
-        content: {{ .Content | jsonify }}
-      },
-    {{ end -}}
-  ];
+//   var docs = [
+//     {{ range $index, $page := (where .Site.Pages "Section" "docs") -}}
+//       {
+//         id: {{ $index }},
+//         href: "{{ .Permalink | absURL }}",
+//         title: {{ .Title | jsonify }},
+//         description: {{ .Params.description | jsonify }},
+//         content: {{ .Content | jsonify }}
+//       },
+//     {{ end -}}
+//   ];
 
-  index.add(docs);
+//   index.add(docs);
 
-  userinput.addEventListener('input', show_results, true);
-  suggestions.addEventListener('click', accept_suggestion, true);
+//   userinput.addEventListener('input', show_results, true);
+//   suggestions.addEventListener('click', accept_suggestion, true);
 
-  function show_results(){
+//   function show_results(){
 
-    var value = this.value;
-    var results = index.search(value, 5);
-    var entry, childs = suggestions.childNodes;
-    var i = 0, len = results.length;
+//     var value = this.value;
+//     var results = index.search(value, 5);
+//     var entry, childs = suggestions.childNodes;
+//     var i = 0, len = results.length;
 
-    suggestions.classList.remove('d-none');
+//     suggestions.classList.remove('d-none');
 
-    results.forEach(function(page) {
+//     results.forEach(function(page) {
 
-      entry = document.createElement('div');
+//       entry = document.createElement('div');
 
-      entry.innerHTML = '<a href><span></span><span></span></a>';
+//       entry.innerHTML = '<a href><span></span><span></span></a>';
 
-      a = entry.querySelector('a'),
-      t = entry.querySelector('span:first-child'),
-      d = entry.querySelector('span:nth-child(2)');
+//       a = entry.querySelector('a'),
+//       t = entry.querySelector('span:first-child'),
+//       d = entry.querySelector('span:nth-child(2)');
 
-      a.href = page.href;
-      t.textContent = page.title;
-      d.textContent = page.description;
+//       a.href = page.href;
+//       t.textContent = page.title;
+//       d.textContent = page.description;
 
-      suggestions.appendChild(entry);
+//       suggestions.appendChild(entry);
 
-    });
+//     });
 
-    while(childs.length > len){
+//     while(childs.length > len){
 
-        suggestions.removeChild(childs[i])
-    }
+//         suggestions.removeChild(childs[i])
+//     }
 
-  }
+//   }
 
-  function accept_suggestion(){
+//   function accept_suggestion(){
 
-      while(suggestions.lastChild){
+//       while(suggestions.lastChild){
 
-          suggestions.removeChild(suggestions.lastChild);
-      }
+//           suggestions.removeChild(suggestions.lastChild);
+//       }
 
-      return false;
-  }
+//       return false;
+//   }
 
-}());
+// }());
