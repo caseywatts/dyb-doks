@@ -1,13 +1,25 @@
 {{ define "main" }}
-<section class="section container-fluid mt-n3 pb-3">
+<section class="section container-fluid mt-n5 pb-3">
   <div class="row justify-content-center">
-    <div class="col-lg-12 text-center">
-      <h1 class="mt-0">{{ .Title }}</h1>
-    </div>
-    <div class="col-lg-9 col-xl-8 text-center">
-      <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ "docs/prologue/introduction/" | absURL }}" role="button">Get started</a>
-      <p class="meta">Open-source MIT Licensed. <a href="https://github.com/h-enk/doks">GitHub v{{ .Site.Data.doks.version }}</a></p>
+    <div class="title-section">
+        <div class="column" style="display:inline-block;">
+            <h1 class="title-group gradient-text">
+                <div class="title">Debugging</div>
+                <div class="subtitle">Your Brain</div>
+                <div class="author">Casey Watts</div>
+                <!-- <div class="release-date">Now Available</div> -->
+            </h1>
+            <a class="linky-link" href="#book-overview">Preview Book</a>
+            <a class="button-link" href="#buy">Buy Book</a>
+        </div>
+        <div class="column" style="display:inline-block;">
+            <a class="book-container" href="https://www.debuggingyourbrain.com/" target="_blank"
+                rel="noreferrer noopener">
+                <div class="book">
+                    <img alt="Debugging Your Brain by Casey Watts" src="images/DYBCoverRGB@2x.jpg" />
+                </div>
+            </a>
+        </div>
     </div>
   </div>
 </section>
