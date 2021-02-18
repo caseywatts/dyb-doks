@@ -1,4 +1,4 @@
-baseurl = "https://www.debuggingyourbrain.com/"
+baseurl = "/"
 disableAliases = true
 disableHugoGeneratorInject = true
 enableEmoji = true
