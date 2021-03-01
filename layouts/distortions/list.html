@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="row justify-content-center">
+    <article>
+      <h1 class="text-center">{{ .Title }}</h1>
+      <div class="text-center">{{ .Content }}</div>
+      {{ partial "distortions/categories.html" . }}
+      <div>
+        David Burns' popularized a lot of these in his book "Feeling Good," and Buster Benson did a great job [categorizing them](https://betterhumans.pub/cognitive-bias-cheat-sheet-55a472476b18). Here, Casey has taken that work a step farther to make it an easier to navigate reference.
+      </div>
+    </article>
+</div>
+{{ end }}

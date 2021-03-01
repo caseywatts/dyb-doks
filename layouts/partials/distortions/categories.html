@@ -1,0 +1,5 @@
+<div class="distortion-categories">
+    {{ range $.Site.Data.cognitive_distortions.children }}
+        {{ partial "distortions/category.html" . }}
+    {{ end }}
+</div>

@@ -1,0 +1,12 @@
+<div class="distortion-group flex-item">
+    <h4 class="distortion-group-name"> {{.name}} </h4>
+    <div class="distortion-group-description">
+        {{.description}}
+    </div>
+    <div>
+        show/hide
+    </div>
+    {{ range .children }}
+        {{/* {{ partial "distortions/distortion.html" . }} */}}
+    {{ end }}
+</div>

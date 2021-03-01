@@ -1,0 +1,13 @@
+<div class="distortion-category">
+  <div class="distortion-category-title">
+    <h2>{{ .name }}</h2>
+  </div>
+  <div>
+    {{ .description }}
+  </div>
+    <div class="flex-container">
+      {{ range .children }}
+        {{ partial "distortions/distortion_group.html" . }}
+      {{ end }}
+    </div>
+</div>
