@@ -2,8 +2,8 @@
 @import "bootstrap/scss/functions";
 
 /** Import theme variables */
-@import "common/variables";
 @import "custom-variables";
+@import "common/variables";
 
 /** Import Bootstrap */
 @import "bootstrap/scss/bootstrap";
