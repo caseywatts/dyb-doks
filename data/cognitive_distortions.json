@@ -7,7 +7,7 @@
             "children": [
                 {
                     "name": "Priming and Repetition",
-                    "description": "We readily notice things primed in memory or repeated often.",
+                    "description": "We notice things primed in memory or repeated often.",
                     "children": [
                         {
                             "name": "Availability heuristic"
@@ -49,7 +49,7 @@
                 },
                 {
                     "name": "Surprise",
-                    "description": "Bizarre, funny, visually-striking, or anthropomorphic things stand out.",
+                    "description": "We notice things that stand out, like bizarre, funny, visually-striking, or anthropomorphic things.",
                     "children": [
                         {
                             "name": "Bizarreness effect"
@@ -73,7 +73,7 @@
                 },
                 {
                     "name": "Change",
-                    "description": "We notice when something has changed.",
+                    "description": "We notice things that change.",
                     "children": [
                         {
                             "name": "Anchoring"
@@ -103,7 +103,7 @@
                 },
                 {
                     "name": "Confirmation bias",
-                    "description": "We are drawn to details that confirm our own existing beliefs.",
+                    "description": "We notice details that confirm our own existing beliefs.",
                     "children": [
                         {
                             "name": "Confirmation bias"
@@ -169,7 +169,7 @@
             "children": [
                 {
                     "name": "Filling in the Gaps",
-                    "description": "We find stories and patterns even in sparse data",
+                    "description": "We fill in stories and patterns even in sparse data.",
                     "children": [
                         {
                             "name": "Confabulation"
@@ -214,7 +214,7 @@
                 },
                 {
                     "name": "Generalizing",
-                    "description": "We fill in characteristics from stereotypes, generalities, and prior histories",
+                    "description": "We fill in characteristics based on stereotypes, generalities, and past experience.",
                     "children": [
                         {
                             "name": "Group attribution error"
@@ -256,7 +256,7 @@
                 },
                 {
                     "name": "Familiarity",
-                    "description": "We imagine things and people we're familiar with or fond of as better",
+                    "description": "We presume things and people we're familiar with or fond of as better.",
                     "children": [
                         {
                             "name": "Out-group homogeneity bias"
@@ -289,7 +289,7 @@
                 },
                 {
                     "name": "Numbers are hard",
-                    "description": "We simplify probabilities and numbers to make them easier to think about",
+                    "description": "We simplify probabilities and numbers to make them easier to think about.",
                     "children": [
                         {
                             "name": "Mental accounting"
@@ -322,7 +322,7 @@
                 },
                 {
                     "name": "Mind-reading",
-                    "description": "We think we know what other people are thinking",
+                    "description": "We think we know what other people are thinking.",
                     "children": [
                         {
                             "name": "Illusion of transparency"
@@ -346,7 +346,7 @@
                 },
                 {
                     "name": "Future Projection, Past Projection",
-                    "description": "We project our current mindset and assumptions onto the past and future",
+                    "description": "We project our current mindset and assumptions onto the past and future.",
                     "children": [
                         {
                             "name": "Telescoping effect"
@@ -594,8 +594,8 @@
             "description": "To decide what to remember or forget, what shortcuts does the mind take?",
             "children": [
                 {
-                    "name": "Changes over time",
-                    "description": "We edit and reinforce some memories after the fact",
+                    "name": "Over Time",
+                    "description": "We edit and reinforce some memories after the fact.",
                     "children": [
                         {
                             "name": "Misattribution of memory"
@@ -618,8 +618,8 @@
                     ]
                 },
                 {
-                    "name": "Generalization",
-                    "description": "We discard specifics to form generalities",
+                    "name": "Generalizing",
+                    "description": "We discard specifics to form generalities.",
                     "children": [
                         {
                             "name": "Implicit associations"
@@ -642,8 +642,8 @@
                     ]
                 },
                 {
-                    "name": "Simplification",
-                    "description": "We reduce events and lists to their key elements",
+                    "name": "Simplifying",
+                    "description": "We reduce events and lists to their key elements.",
                     "children": [
                         {
                             "name": "Peak–end rule"
@@ -687,8 +687,8 @@
                     ]
                 },
                 {
-                    "name": "Context",
-                    "description": "We store memories differently based on how they were experienced",
+                    "name": "Context-based",
+                    "description": "We store memories differently based on how they were experienced.",
                     "children": [
                         {
                             "name": "Levels of processing effect"
