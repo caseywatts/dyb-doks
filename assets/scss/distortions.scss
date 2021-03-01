@@ -63,6 +63,7 @@
 .distortions {
     text-align: center;
     margin-top: 2rem;
+    transition: height 0.66s ease-out;
 }
 
 .distortion {
@@ -78,6 +79,21 @@
 
 
 // misc
+
+.show-hide-distortions {
+    text-align: center;
+    margin-top: 1rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background: #DDD;
+    border: 1px solid gray;
+    padding: 1rem;
+    border-radius: 10rem;
+}
+.show-hide-distortions:hover {
+    background: #EEE;
+}
 
 .toggle-collapse {
     display: inline-block;

@@ -29,3 +29,14 @@ clipboard.on('error', function (e) {
   console.error('Trigger:', e.trigger);
 });
 /* eslint-enable */
+
+function showHideDistortions(el) {
+  const distortionsNodes = document.getElementsByClassName('distortions-list');
+  Array.prototype.forEach.call(distortionsNodes, (el) => {
+    if (el.style.display === "none") {
+      el.style.display = "block";
+    } else {
+      el.style.display = "none";
+    }
+  });
+}

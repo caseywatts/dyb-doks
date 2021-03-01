@@ -3,9 +3,9 @@
     <div class="distortion-group-description">
         {{.description}}
     </div>
-    <div class="distortions distortions-hidden">
+    <div class="distortions-list" style="display:none;">
         {{ range .children }}
-            {{/* {{ partial "distortions/distortion.html" . }} */}}
+            {{ partial "distortions/distortion.html" . }}
         {{ end }}
     </div>
 </div>
