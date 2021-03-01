@@ -5,6 +5,7 @@ date: 2021-03-01T13:41:40-05:00
 lastmod: 2021-03-01T13:41:40-05:00
 draft: false
 images: []
+layout: distortions
 ---
 
 When you notice a thought is "off" but you can't put your finger on it, try to figure out which cognitive distortion it is by searching here!
