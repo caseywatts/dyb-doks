@@ -6,50 +6,51 @@
     margin: 1rem;
 }
 
-.distortion-category:nth-child(1) h2, .distortion-category:nth-child(1) h4 {
+.distortion-category:nth-child(1) h2, .distortion-category:nth-child(1) h3 {
     color: var(--brain-blue);
 }
-.distortion-category:nth-child(2) h2, .distortion-category:nth-child(2) h4 {
+.distortion-category:nth-child(2) h2, .distortion-category:nth-child(2) h3 {
     color:var(--brain-orange);
 }
-.distortion-category:nth-child(3) h2, .distortion-category:nth-child(3) h4 {
+.distortion-category:nth-child(3) h2, .distortion-category:nth-child(3) h3 {
     color:var(--brain-pink);
 }
-.distortion-category:nth-child(4) h2, .distortion-category:nth-child(4) h4 {
+.distortion-category:nth-child(4) h2, .distortion-category:nth-child(4) h3 {
     color:var(--brain-purple);
 }
 
 
 // distortion groups
 .distortion-group {
-    background: rgba(0,0,0,0.1);
+    background: var(--card-background);
     border-radius: 0.5rem;
-    border: 1px solid grey;
+    // border: 1px solid grey;
+    box-shadow: 2px 2px 6px var(--brain-background-black);
     padding: 1rem;
     margin: 0.5rem;
 }
 
-.distortion-group:nth-child(1) {
-    filter: brightness(82.5%);
-}
-.distortion-group:nth-child(2) {
-    filter: brightness(85%);
-}
-.distortion-group:nth-child(3) {
-    filter: brightness(87.5%);
-}
-.distortion-group:nth-child(4) {
-    filter: brightness(90%);
-}
-.distortion-group:nth-child(5) {
-    filter: brightness(92.5%);
-}
-.distortion-group:nth-child(6) {
-    filter: brightness(95%);
-}
-.distortion-group:nth-child(7) {
-    filter: brightness(97.5%);
-}
+// .distortion-group:nth-child(1) {
+//     filter: brightness(82.5%);
+// }
+// .distortion-group:nth-child(2) {
+//     filter: brightness(85%);
+// }
+// .distortion-group:nth-child(3) {
+//     filter: brightness(87.5%);
+// }
+// .distortion-group:nth-child(4) {
+//     filter: brightness(90%);
+// }
+// .distortion-group:nth-child(5) {
+//     filter: brightness(92.5%);
+// }
+// .distortion-group:nth-child(6) {
+//     filter: brightness(95%);
+// }
+// .distortion-group:nth-child(7) {
+//     filter: brightness(97.5%);
+// }
 
 .distortion-group-name {
     display: inline-block;
@@ -86,8 +87,8 @@
     position: fixed;
     bottom: 1rem;
     right: 1rem;
-    background: #DDD;
-    border: 1px solid gray;
+    background: var(--card-background);
+    border: 1px solid grey;
     padding: 1rem;
     border-radius: 10rem;
     z-index: 100;
