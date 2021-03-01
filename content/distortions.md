@@ -8,8 +8,6 @@ images: []
 layout: distortions
 ---
 
-When you notice a thought is "off" but you can't put your finger on it, try to figure out which cognitive distortion it is by searching here!
+Do you ever notice a thought you have is "off" but you can't put your finger on it? This might be a cognitive distortion! A cognitive distortion is an unhelpful thought which gives you a skewed, inaccurate view of reality. They tend to be irrational or exaggerated.
 
-A cognitive distortion is an unhelpful thought which gives you a skewed, inaccurate view of reality. They tend to be irrational or exaggerated.
-
-Below are many cognitive distortions, in groups. Each specific distortion has a link to a Wikipedia article diving into more detail.
+Below, cognitive distortions are categorized into four groups: filtering, filling in the gaps, bias to act, and memory.
