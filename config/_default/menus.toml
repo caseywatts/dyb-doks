@@ -10,10 +10,15 @@
 #   identifier = "help"
 #   url = "/docs/help/"
 
-# [[main]]
-#   name = "Book"
-#   url = "/book/"
-#   weight = 10
+[[main]]
+  name = "Book"
+  url = "/"
+  weight = 10
+
+[[main]]
+  name = "Distortions"
+  url = "/distortions"
+  weight = 20
 
 # [[main]]
 #   name = "Talks"
