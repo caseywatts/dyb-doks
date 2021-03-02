@@ -127,4 +127,4 @@ prefetcher.href=url
 document.head.appendChild(prefetcher)
 prefetches.add(url)}
 ;
-var clipboard=new ClipboardJS('.btn-clipboard');clipboard.on('success',function(e){e.clearSelection();});clipboard.on('error',function(e){console.error('Action:',e.action);console.error('Trigger:',e.trigger);});function showHideDistortions(el){const distortionsNodes=document.getElementsByClassName('distortions-list');Array.prototype.forEach.call(distortionsNodes,(el)=>{if(el.style.display==="none"){el.style.display="block";}else{el.style.display="none";}});}
+var clipboard=new ClipboardJS('.btn-clipboard');clipboard.on('success',function(e){e.clearSelection();});clipboard.on('error',function(e){console.error('Action:',e.action);console.error('Trigger:',e.trigger);});
