@@ -15,17 +15,26 @@
 </div>
 
 <script>
-function showHideDistortions() {
-  const distortionsNodes = document.getElementsByClassName('distortions-list');
-  Array.prototype.forEach.call(distortionsNodes, (el) => {
+function toggleDisplay(el) {
     if (el.style.display === "none") {
       el.style.display = "block";
     } else {
       el.style.display = "none";
     }
-  });
 }
 
-showHideDistortions(); // on page load, hide this content
+function showHideDistortions(el) {
+  neighboringListToToggle = el.parentElement.nextElementSibling;
+  toggleDisplay(neighboringListToToggle);
+}
+
+function hideByDefault(el) {
+  const distortionsNodes = document.getElementsByClassName('distortions-list');
+  Array.prototype.forEach.call(distortionsNodes, (el) => {
+    toggleDisplay(el);
+  });
+} // on page load, hide this content
+
+hideByDefault();
 </script>
 {{ end }}

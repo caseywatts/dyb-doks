@@ -3,6 +3,11 @@
     <div class="distortion-group-description">
         {{.description}}
     </div>
+    <div class="show-hide-distortions">
+        <a href="#" onclick="showHideDistortions(this); return false;">
+           show/hide distortions
+        </a>
+    </div>
     <div class="distortions-list">
         {{ range .children }}
             {{ partial "distortions/distortion.html" . }}

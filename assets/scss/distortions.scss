@@ -87,18 +87,19 @@
 .show-hide-distortions {
     text-align: center;
     margin-top: 1rem;
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    background: var(--card-background);
-    border: 1px solid grey;
-    padding: 1rem;
-    border-radius: 10rem;
-    z-index: 100;
+    font-size: small;
+    // position: fixed;
+    // bottom: 1rem;
+    // right: 1rem;
+    // background: var(--card-background);
+    // border: 1px solid grey;
+    // padding: 1rem;
+    // border-radius: 10rem;
+    // z-index: 100;
 }
-.show-hide-distortions:hover {
-    background: #EEE;
-}
+// .show-hide-distortions:hover {
+//     background: #EEE;
+// }
 
 .toggle-collapse {
     display: inline-block;

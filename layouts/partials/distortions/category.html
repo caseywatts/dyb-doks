@@ -5,9 +5,9 @@
   <div>
     {{ .description }}
   </div>
-    <div class="flex-container">
-      {{ range .children }}
-        {{ partial "distortions/distortion_group.html" . }}
-      {{ end }}
-    </div>
+  <div class="flex-container">
+    {{ range .children }}
+      {{ partial "distortions/distortion_group.html" . }}
+    {{ end }}
+  </div>
 </div>
